@@ -133,7 +133,7 @@ ul {
   list-style-type: none;
   background-color: olivedrab;
   overflow: hidden;
-  padding: 2em;
+  padding: 1em;
 }
 
 li {
@@ -250,4 +250,17 @@ li a:hover {
      margin-left: 1em;
      margin-right: 1em;
    }
+
+     li {
+    display: block;
+    float: center;
+    margin-left: 0.5px;
+  }
+
+  li a {
+    padding: 0.3em;
+    font-size: 1.3em;
+    margin-right: 0.5em;
+    margin-left: 0.2em;
+  }
 }
